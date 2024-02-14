@@ -1,0 +1,35 @@
+section {
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh;
+  }
+
+h2 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+button:hover {
+    background-position: right center;
+}
+
+button {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    flex: 1 1 auto;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
